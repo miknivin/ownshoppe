@@ -7,7 +7,7 @@ export default function ChooseUs() {
       <div
         className="bg-layer"
         style={{
-          backgroundImage: "url(assets/images/background/chooseus-bg.jpg)",
+          backgroundImage: "url(assets/images/background/chooseus-bg.png)",
         }}
       ></div>
       <div
