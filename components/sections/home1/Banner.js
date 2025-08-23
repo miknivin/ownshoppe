@@ -40,7 +40,7 @@ export default function Banner() {
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image-box">
               <figure className="image float-bob-y">
-                <img src="assets/images/banner/banner-img-1.png" alt="" />
+                <img src="/assets/images/gallery/img1.png" alt="" />
               </figure>
             </div>
           </div>

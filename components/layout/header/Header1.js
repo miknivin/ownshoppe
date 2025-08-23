@@ -14,33 +14,33 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
           <ul className="info-list clearfix">
            
             <li>
-              <i className="icon-2"></i>Email: <Link href="tel:01989526503">0198-9526503</Link>
+              <i className="icon-2"></i><Link href="tel:+919645898599">+919645898599</Link>
             </li>
             <li>
-              <img src="assets/images/icons/icon-1.png" alt="" /> 47 Bakery Street, London, UK
+              <img src="assets/images/icons/icon-1.png" alt="" /> JJ Perfumes International SDF 16,  Kakkanad, Cochin, India
             </li>
           </ul>
           <ul className="social-links clearfix">
-            <li>
+            {/* <li>
               <Link href="/">
                 <i className="icon-4"></i>
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="/">
                 <i className="icon-5"></i>
               </Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link href="/">
                 <i className="icon-6"></i>
               </Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link href="/">
                 <i className="icon-7"></i>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
           <div className="outer-box">
             <div className="logo-box">
               <figure className="logo">
-                <Link href="/"><img src="assets/images/logo.png" alt="" /></Link>
+                <Link href="/"><img src="assets/images/img1.png" alt="" /></Link>
               </figure>
             </div>
             <div className="menu-area">
@@ -72,7 +72,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                         <div className="logo-box">
-                            <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                            <figure className="logo"><Link href="/"><img src="assets/images/img1.png" alt="" /></Link></figure>
                         </div>
                        
                             <nav className="main-menu navbar-expand-md navbar-light clearfix">

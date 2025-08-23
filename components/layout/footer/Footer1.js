@@ -26,7 +26,7 @@ export default function Footer1() {
                 <div className="footer-widget logo-widget">
                   <figure className="footer-logo">
                     <Link href="/">
-                      <img src="assets/images/footer-logo.png" alt="" />
+                      <img src="assets/images/img1.png" alt="" />
                     </Link>
                   </figure>
                   {/* <p>Discover your signature scent. Crafted with passion, designed for moments that matter</p> */}
