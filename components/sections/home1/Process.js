@@ -1,16 +1,31 @@
-
 "use client";
 
-import React from 'react';
-import client from '../home2/Client';
+import React from "react";
+import client from "../home2/Client";
 
 export default function Process() {
   const expertiseItems = [
-    { title: 'Bespoke Fragrance Development', description: 'Custom formulations designed exclusively for your brand.' },
-    { title: 'Private Label Manufacturing', description: 'Full-service production from concept to finished product.' },
-    { title: 'Global Ingredient Sourcing', description: 'Premium oils and essences from renowned regions.' },
-    { title: 'Quality & Compliance', description: 'IFRA standards, regulatory expertise, and strict quality control.' },
-    { title: 'Packaging & Design Support', description: 'Elegant, brand-specific presentation to match your vision.' },
+    {
+      title: "Bespoke Fragrance Development",
+      description: "Custom formulations designed exclusively for your brand.",
+    },
+    {
+      title: "Private Label Manufacturing",
+      description: "Full-service production from concept to finished product.",
+    },
+    {
+      title: "Global Ingredient Sourcing",
+      description: "Premium oils and essences from renowned regions.",
+    },
+    {
+      title: "Quality & Compliance",
+      description:
+        "IFRA standards, regulatory expertise, and strict quality control.",
+    },
+    {
+      title: "Packaging & Design Support",
+      description: "Elegant, brand-specific presentation to match your vision.",
+    },
   ];
 
   return (
@@ -74,15 +89,23 @@ export default function Process() {
           }
         }
       `}</style>
-      <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-19.png)' }}></div>
+      <div
+        className="pattern-layer"
+        style={{ backgroundImage: "url(assets/images/shape/shape-19.png)" }}
+      ></div>
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
           {/* <span className="sub-title">Process</span> */}
-          <h2>Our Expertise<br />Crafted with Precision</h2>
+          <h2>Our Reach & Capacity</h2>
         </div>
         <div className="inner-container">
           {expertiseItems.map((item, index) => (
-            <div key={index} className="processing-block-one wow fadeInLeft animated" data-wow-delay={`${index * 200}ms`} data-wow-duration="1500ms">
+            <div
+              key={index}
+              className="processing-block-one wow fadeInLeft animated"
+              data-wow-delay={`${index * 200}ms`}
+              data-wow-duration="1500ms"
+            >
               <div className="inner-box">
                 <div className="lower-content">
                   <h3>{item.title}</h3>
@@ -95,4 +118,4 @@ export default function Process() {
       </div>
     </section>
   );
-};
+}

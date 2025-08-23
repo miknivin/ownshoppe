@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 export default function about() {
   return (
@@ -17,7 +17,9 @@ export default function about() {
             <div className="image_block_one">
               <div className="image-box">
                 {/* <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div> */}
-                <figure className="image"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                <figure className="image">
+                  <img src="assets/images/resource/about-1.jpg" alt="" />
+                </figure>
                 {/* <div className="icon-one"><i className="icon-13"></i></div>
                 <div className="icon-two"><i className="icon-14"></i></div> */}
                 {/* <div className="text-box">
@@ -35,15 +37,23 @@ export default function about() {
                   <h2>Who We Are</h2>
                 </div>
                 <div className="text-box mb_40">
-                  <h6>The Perfume House Behind the Brands You Love</h6>
-                  <p>For over 10 years, JJ Perfumes has been the trusted name behind some of the world’s most prestigious perfume brands<br/>We combine French-inspired artistry, cutting-edge fragrance technology, and the world’s finest natural and synthetic ingredients to deliver scents that embody luxury.</p>
+                  <p>
+                    Based in Cochin Special Economic Zone, India, JJ Perfumes
+                    International is a trusted multi-brand perfume manufacturer
+                    with a reputation for delivering unmatched quality and
+                    creativity.
+                    <br />
+                    We operate with a modern manufacturing process, equipped
+                    with state-of-the-art machinery, ensuring precision,
+                    consistency, and efficiency in every product.
+                  </p>
+                  <h4 className="mb-4">
+                    The Perfume House Behind the Brands You Love
+                  </h4>
                   <ul className="list-style-one clearfix">
-                    <li>Luxury Perfume Houses.</li>
-                    <li>Fashion & Couture Brands</li>
-                    <li>Boutique Perfume Labels.</li>
-                    <li>Celebrity & Influencer Fragrance Lines</li>
-                    <li>Hospitality & Lifestyle Brands</li>
-               
+                    <li>High-end Perfumes & Eau de Parfum.</li>
+                    <li>Upcoming: Body Sprays.</li>
+                    <li>Upcoming: Room Fresheners & Car Fresheners.</li>
                   </ul>
                 </div>
                 {/* <div className="btn-box">
@@ -56,4 +66,4 @@ export default function about() {
       </div>
     </section>
   );
-};
+}
