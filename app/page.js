@@ -13,6 +13,7 @@ import Video from "@/components/sections/home1/Video";
 import Process from "@/components/sections/home1/Process";
 import Pricing from "@/components/sections/home1/Pricing";
 
+
 export default function Home() {
   return (
     <>
@@ -20,8 +21,9 @@ export default function Home() {
         <Banner />
         <Features />
         <About />
-        {/* <Services /> */}
+    
         <WhyChooseUs />
+          <Services /> 
         {/* <Funfacts /> */}
         {/* <Team /> */}
         {/* <Video /> */}

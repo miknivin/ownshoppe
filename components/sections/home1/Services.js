@@ -1,59 +1,64 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
-export default function service() {
+export default function Services() {
   return (
-    <section className="service-section sec-pad">
-    <div className="auto-container">
-      <div className="sec-title mb_50 centred">
-        <span className="sub-title">Our Services</span>
-        <h2>We Offer For You Medical & <br />Saving Lives</h2>
+    <section className="about-section pt_120 pb_120 bg-color-1">
+      {/* <div className="pattern-layer">
+        <div className="pattern-1 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
+        <div className="pattern-2 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
+        <div className="pattern-3 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-9.png)' }}></div>
+        <div className="pattern-4" style={{ backgroundImage: 'url(assets/images/shape/shape-10.png)' }}></div>
+        <div className="pattern-5" style={{ backgroundImage: 'url(assets/images/shape/shape-11.png)' }}></div>
+      </div> */}
+      <div className="auto-container">
+        <div className="row clearfix">
+          <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+            <div className="content_block_one">
+              <div className="content-box ml_30">
+                <div className="sec-title mb_15">
+                  {/* <span className="sub-title">About Us</span> */}
+                  <h2>Florenza Italiya </h2>
+                </div>
+                <div className="text-box mb_40">
+                  <p>
+                    Apart from manufacturing for leading global labels, we
+                    proudly own and operate Florenza Italiya, our signature
+                    brand that embodies luxury, elegance, and modern
+                    sophistication. 
+                    <br />
+                    Inspired by European perfumery traditions
+                    and crafted with the finest ingredients, Florenza Italiya
+                    offers a range of fragrances designed to captivate diverse
+                    markets while reflecting our commitment to excellence.
+                  </p>
+             
+               
+                </div>
+                {/* <div className="btn-box">
+                  <Link href="/#" className="theme-btn btn-one"><span>Discover More</span></Link>
+                </div> */}
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+            <div className="image_block_one">
+              <div className="image-box">
+                {/* <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div> */}
+                <figure className="image">
+                  <img src="/assets/images/gallery/img6.png" alt="" style={{ maxWidth: '350px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }} />
+                </figure>
+                {/* <div className="icon-one"><i className="icon-13"></i></div>
+                <div className="icon-two"><i className="icon-14"></i></div> */}
+                {/* <div className="text-box">
+                  <h3>Wade Warren</h3>
+                  <span>Medical Assistant</span>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="row clearfix">
-        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-          <div className="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="image-box">
-                <figure className="image"><Link href="service-details-3"><img src="assets/images/service/service-1.jpg" alt="" /></Link></figure>
-                <div className="icon-box"><i className="icon-15"></i></div>
-              </div>
-              <div className="lower-content">
-                <h3><Link href="service-details-3">Neurosurgery</Link></h3>
-                <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-          <div className="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="image-box">
-                <figure className="image"><Link href="service-details-6"><img src="assets/images/service/service-2.jpg" alt="" /></Link></figure>
-                <div className="icon-box"><i className="icon-16"></i></div>
-              </div>
-              <div className="lower-content">
-                <h3><Link href="service-details-6">Modern Laboratory</Link></h3>
-                <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-          <div className="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-            <div className="inner-box">
-              <div className="image-box">
-                <figure className="image"><Link href="service-details"><img src="assets/images/service/service-3.jpg" alt="" /></Link></figure>
-                <div className="icon-box"><i className="icon-17"></i></div>
-              </div>
-              <div className="lower-content">
-                <h3><Link href="service-details">Experienced Doctors</Link></h3>
-                <p>Amet minim mollit non deserunt ullamco aliqua dolor do amet sint.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
   );
-};
+}

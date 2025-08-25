@@ -7,15 +7,15 @@ export default function Process() {
   const expertiseItems = [
     {
       title: "Bespoke Fragrance Development",
-      description: "Custom formulations designed exclusively for your brand.",
+      description: "Custom formulations designed exclusively for your brand",
     },
     {
       title: "Private Label Manufacturing",
-      description: "Full-service production from concept to finished product.",
+      description: "Full-service production from concept to finished product",
     },
     {
       title: "Global Ingredient Sourcing",
-      description: "Premium oils and essences from renowned regions.",
+      description: " Premium oils and essences from renowned regions",
     },
     {
       title: "Quality & Compliance",
@@ -24,7 +24,7 @@ export default function Process() {
     },
     {
       title: "Packaging & Design Support",
-      description: "Elegant, brand-specific presentation to match your vision.",
+      description: "Elegant, brand-specific presentation to match your vision",
     },
   ];
 
@@ -96,7 +96,7 @@ export default function Process() {
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
           {/* <span className="sub-title">Process</span> */}
-          <h2>Our Reach & Capacity</h2>
+          <h2>Our Process </h2>
         </div>
         <div className="inner-container">
           {expertiseItems.map((item, index) => (
@@ -108,8 +108,8 @@ export default function Process() {
             >
               <div className="inner-box">
                 <div className="lower-content">
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
+                <h3>{item.title}</h3>
+               <p>{item.description}</p> 
                 </div>
               </div>
             </div>

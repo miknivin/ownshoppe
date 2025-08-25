@@ -26,9 +26,7 @@ export default function Banner() {
                 Global Perfume <span> Manufacturing Excellence.</span>
               </h2>
               <p>
-                At JJ Perfumes International, we craft world-class fragrances
-                for multiple premium brands, exporting to Europe, the Middle
-                East, and the Russian region.
+          At JJ Perfumes International, we craft world-class fragrances for multiple premium brands, exporting to Europe, the Middle East, South Asia (including Malaysia, Singapore, Sri Lanka, and beyond), and the Russian region
               </p>
               <div className="btn-box">
                 <Link href="/contact" className="theme-btn btn-two">
@@ -40,7 +38,7 @@ export default function Banner() {
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image-box">
               <figure className="image float-bob-y">
-                <img src="/assets/images/gallery/img1.png" alt="" />
+                <img src="/assets/images/gallery/img1.png" alt="" style={{ maxWidth: '450px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }}  />
               </figure>
             </div>
           </div>
