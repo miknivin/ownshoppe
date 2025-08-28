@@ -41,7 +41,7 @@ export default function Banner() {
           <div className="col-lg-6 col-md-12 col-sm-12 image-column">
             <div className="image-box">
               <figure className="image float-bob-y">
-                <img src="/assets/images/gallery/img9.jpg" alt="" style={{ maxWidth: '450px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }}  />
+                <img src="/assets/images/gallery/img11.png" alt="" style={{ maxWidth: '450px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }}  />
               </figure>
             </div>
           </div>

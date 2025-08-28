@@ -3,7 +3,7 @@
 import React from "react";
 
 const countries = [
-  { name: "Suadi", image: "assets/images/gallery/suadi.jpeg" },
+  { name: "Saudi", image: "assets/images/gallery/suadi.jpeg" },
   { name: "Spain ", image: "assets/images/gallery/spain.jpeg" },
   { name: "Qatar ", image: "assets/images/gallery/qatar.jpeg" },
   { name: "Bahrain", image: "assets/images/gallery/bahrain.jpeg" },
