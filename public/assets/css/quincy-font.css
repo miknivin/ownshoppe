@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Quincy';
+  src: url('/assets/fonts/Quincy/Quincy-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Quincy/Quincy-Regular.woff') format('woff'),
+       url('/assets/fonts/Quincy/Quincy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quincy';
+  src: url('/assets/fonts/Quincy/Quincy-Bold.woff2') format('woff2'),
+       url('/assets/fonts/Quincy/Quincy-Bold.woff') format('woff'),
+       url('/assets/fonts/Quincy/Quincy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Example usage: */
+body, .use-quincy {
+  font-family: 'Quincy', Arial, sans-serif;
+}

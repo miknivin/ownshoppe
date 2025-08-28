@@ -3,7 +3,7 @@ import React from "react";
 
 export default function about() {
   return (
-    <section className="about-section pt_120 pb_120 bg-color-1">
+    <section className="about-section pt_120 pb_120 bg-color-1" style={{backgroundColor: '#fff'}}>
       {/* <div className="pattern-layer">
         <div className="pattern-1 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
         <div className="pattern-2 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
@@ -18,7 +18,7 @@ export default function about() {
               <div className="image-box">
                 {/* <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div> */}
                 <figure className="image">
-                  <img src="assets/images/resource/about-1.png" alt="" style={{ maxWidth: '450px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }}  />
+                  <img src="assets/images/resource/about1.png" alt="" style={{ maxWidth: '450px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }}  />
                 </figure>
                 {/* <div className="icon-one"><i className="icon-13"></i></div>
                 <div className="icon-two"><i className="icon-14"></i></div> */}
@@ -50,10 +50,10 @@ export default function about() {
                   <h4 className="mb-4">
                     The Perfume House Behind the Brands You Love
                   </h4>
-                  <ul className="list-style-one clearfix">
-                    <li>High-end Perfumes & Eau de Parfum.</li>
-                    <li>Upcoming: Body Sprays.</li>
-                    <li>Upcoming: Room Fresheners & Car Fresheners.</li>
+                  <ul className="list-style-one clearfix" style={{fontSize: '1.25rem'}}>
+                    <li style={{fontSize: '1.2rem'}}>High-end Perfumes & Eau de Parfum.</li>
+                    <li style={{fontSize: '1.25rem'}}>Upcoming: Body Sprays.</li>
+                    <li style={{fontSize: '1.25rem'}}>Upcoming: Room Fresheners & Car Fresheners.</li>
                   </ul>
                 </div>
                 {/* <div className="btn-box">

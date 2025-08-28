@@ -1,9 +1,10 @@
+"use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contuct Us">
+      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Contact Us">
         <div>
           {/* Contact Form Section */}
           <section className="contact-info-section pt_120">
@@ -124,11 +125,11 @@ export default function Home() {
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                           <button
-                            className="theme-btn btn-one"
+                            className="theme-btn btn-two"
                             type="submit"
                             name="submit-form"
                           >
-                            <span>Send Message</span>
+                          <span style={{fontSize: '1.2rem'}}>Send Message</span>
                           </button>
                         </div>
                       </div>
@@ -137,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                   <figure className="image-box">
-                    <img src="assets/images/resource/contact-1.jpg" alt="" />
+                    <img src="assets/images/resource/about2.png" alt="" />
                   </figure>
                 </div>
               </div>

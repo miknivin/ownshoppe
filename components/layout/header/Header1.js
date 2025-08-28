@@ -4,23 +4,14 @@ import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
-    return (
-        <>
-            <header className={`main-header ${scroll ? "fixed-header" : ""}`}>
+  return (
+    <>
+      <header className={`main-header ${scroll ? "fixed-header" : ""}`} style={{color: '#060505'}}>
                 {/* Header Top */}
                 <div className="header-top">
       <div className="auto-container">
-        <div className="top-inner">
-          <ul className="info-list clearfix">
-           
-            <li>
-              <i className="icon-2"></i><Link href="tel:+919645898599">+919645898599</Link>
-            </li>
-            <li>
-              <img src="assets/images/icons/icon-1.png" alt="" /> JJ Perfumes International SDF 16,  Kakkanad, Cochin, India
-            </li>
-          </ul>
-          <ul className="social-links clearfix">
+        <div className="top-inner" style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+          <ul className="social-links clearfix" style={{marginLeft: 0}}>
             {/* <li>
               <Link href="/">
                 <i className="icon-4"></i>
@@ -42,6 +33,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
               </Link>
             </li> */}
           </ul>
+          <ul className="info-list clearfix" style={{marginLeft: 'auto'}}>
+            <li>
+              <i className="icon-2"></i>
+              <Link href="tel:+919645898599" style={{color: '#060505', fontSize: '1.25rem'}}>+919645898599</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -60,7 +57,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 {/* Navigation menu removed as requested */}
             </div>
             <div className="btn-box">
-              <Link href="/contact" className="theme-btn btn-one"><span>Contact us</span></Link>
+              <Link href="/contact" className="theme-btn btn-two"> <span style={{fontSize: '1.2rem'}}>Contact us</span></Link>
             </div>
           </div>
         </div>
@@ -83,7 +80,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <ul className="menu-right-content">
                           
                             <div className="btn-box">
-                            <Link href="/contact" className="theme-btn btn-one"><span>Contact us</span></Link>
+                            <Link href="/contact" className="theme-btn btn-two"> <span style={{fontSize: '1.2rem'}}>Contact us</span></Link>
                         </div>
                             </ul>
                         

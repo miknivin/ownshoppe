@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { poppins } from "@/lib/font";
 export const metadata = {
-  title: "Ownshoppe",
+  title: "JJ perfumes",
   description: "",
 };
 

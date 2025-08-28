@@ -12,7 +12,7 @@ import Team from "@/components/sections/home1/Team";
 import Video from "@/components/sections/home1/Video";
 import Process from "@/components/sections/home1/Process";
 import Pricing from "@/components/sections/home1/Pricing";
-
+import  CountryCards  from "@/components/sections/home1/CountryCards";
 
 export default function Home() {
   return (
@@ -28,6 +28,7 @@ export default function Home() {
         {/* <Team /> */}
         {/* <Video /> */}
         <Process />
+        <CountryCards />
         <Testimonial />
         {/* <Pricing /> */}
         {/* <News /> */}

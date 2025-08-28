@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section className="about-section pt_120 pb_120 bg-color-1">
+    <section className="about-section pt_120 pb_120 bg-color-1" style={{backgroundColor: '#fff'}}>
       {/* <div className="pattern-layer">
         <div className="pattern-1 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
         <div className="pattern-2 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
@@ -13,6 +13,32 @@ export default function Services() {
       </div> */}
       <div className="auto-container">
         <div className="row clearfix">
+          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+            <div className="image_block_one">
+              <div className="image-box">
+                {/* <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div> */}
+                <figure className="image">
+                  <img
+                    src="/assets/images/gallery/img6.png"
+                    alt=""
+                    style={{
+                      maxWidth: "450px",
+                      width: "100%",
+                      height: "auto",
+                      display: "block",
+                      margin: "0 auto",
+                    }}
+                  />
+                </figure>
+                {/* <div className="icon-one"><i className="icon-13"></i></div>
+                <div className="icon-two"><i className="icon-14"></i></div> */}
+                {/* <div className="text-box">
+                  <h3>Wade Warren</h3>
+                  <span>Medical Assistant</span>
+                </div> */}
+              </div>
+            </div>
+          </div>
           <div className="col-lg-6 col-md-12 col-sm-12 content-column">
             <div className="content_block_one">
               <div className="content-box ml_30">
@@ -25,34 +51,34 @@ export default function Services() {
                     Apart from manufacturing for leading global labels, we
                     proudly own and operate Florenza Italiya, our signature
                     brand that embodies luxury, elegance, and modern
-                    sophistication. 
+                    sophistication.
                     <br />
-                    Inspired by European perfumery traditions
-                    and crafted with the finest ingredients, Florenza Italiya
-                    offers a range of fragrances designed to captivate diverse
-                    markets while reflecting our commitment to excellence.
+                    Inspired by European perfumery traditions and crafted with
+                    the finest ingredients, Florenza Italiya offers a range of
+                    fragrances designed to captivate diverse markets while
+                    reflecting our commitment to excellence.
+                    <br />
+                    In addition to manufacturing for some of the world’s most
+                    prestigious perfume labels, we proudly own and operate
+                    Florenza Italiya – our signature brand that represents the
+                    pinnacle of luxury, elegance, and modern sophistication
+                    <br />
+                    Every Florenza Italiya fragrance is a testament to our
+                    passion for artistry and perfection. Inspired by timeless
+                    European perfumery traditions and enriched with contemporary
+                    innovations, each scent is meticulously developed by expert
+                    perfumers using the finest natural and exotic ingredients
+                    sourced from around the globe
+                    <br />
+                    Our collection is designed to appeal to a diverse range of
+                    markets and tastes – from the refined floral bouquets that
+                    echo Parisian romance, to rich oriental blends that capture
+                    the mystique of the Middle East, and fresh, vibrant notes
+                    perfect for tropical and modern lifestyles.
                   </p>
-             
-               
                 </div>
                 {/* <div className="btn-box">
                   <Link href="/#" className="theme-btn btn-one"><span>Discover More</span></Link>
-                </div> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-            <div className="image_block_one">
-              <div className="image-box">
-                {/* <div className="shape float-bob-x" style={{ backgroundImage: 'url(assets/images/shape/shape-7.png)' }}></div> */}
-                <figure className="image">
-                  <img src="/assets/images/gallery/img6.png" alt="" style={{ maxWidth: '350px', width: '100%', height: 'auto', display: 'block', margin: '0 auto' }} />
-                </figure>
-                {/* <div className="icon-one"><i className="icon-13"></i></div>
-                <div className="icon-two"><i className="icon-14"></i></div> */}
-                {/* <div className="text-box">
-                  <h3>Wade Warren</h3>
-                  <span>Medical Assistant</span>
                 </div> */}
               </div>
             </div>

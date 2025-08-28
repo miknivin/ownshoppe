@@ -32,7 +32,7 @@ export default function Process() {
     <section className="process-section sec-pad">
       <style jsx>{`
         .process-section {
-          background: #f9f9f9;
+          background: #ffff;
           padding: 60px 0;
         }
         .inner-container {
@@ -69,15 +69,15 @@ export default function Process() {
           display: none;
         }
         .lower-content h3 {
-          font-size: 18px;
+          font-size: 22px;
           color: #333;
           margin: 10px 0;
           font-weight: 600;
         }
         .lower-content p {
-          font-size: 14px;
+          font-size: 18px;
           color: #666;
-          line-height: 1.5;
+          line-height: 1.7;
         }
         @media (max-width: 768px) {
           .inner-container {
