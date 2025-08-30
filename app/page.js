@@ -13,6 +13,7 @@ import Video from "@/components/sections/home1/Video";
 import Process from "@/components/sections/home1/Process";
 import Pricing from "@/components/sections/home1/Pricing";
 import  CountryCards  from "@/components/sections/home1/CountryCards";
+import Excellence from "@/components/sections/home1/Excellence";
 
 export default function Home() {
   return (
@@ -21,17 +22,20 @@ export default function Home() {
         <Banner />
         <Features />
         <About />
+         <Excellence />
     
         <WhyChooseUs />
           <Services /> 
         {/* <Funfacts /> */}
-        {/* <Team /> */}
+        {/* <Team /> *
         {/* <Video /> */}
         <Process />
+          <News /> 
         <CountryCards />
         <Testimonial />
         {/* <Pricing /> */}
-        {/* <News /> */}
+      
+       
         {/* <Subscribe /> */}
       </Layout>
     </>

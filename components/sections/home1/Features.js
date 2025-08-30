@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Feature() {
   return (
-    <section className="feature-section pt_120 pb_90">
+    <section className="feature-section pt_80 pb_60">
       <div className="auto-container">
         <div className="sec-title mb_70 centred">
         

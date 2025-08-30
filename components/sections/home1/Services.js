@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section className="about-section pt_120 pb_120 bg-color-1" style={{backgroundColor: '#fff'}}>
+    <section className="about-section pt_60 pb_60 bg-color-1" style={{backgroundColor: '#fff'}}>
       {/* <div className="pattern-layer">
         <div className="pattern-1 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>
         <div className="pattern-2 rotate-me" style={{ backgroundImage: 'url(assets/images/shape/shape-8.png)' }}></div>

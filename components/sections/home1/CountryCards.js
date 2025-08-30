@@ -16,7 +16,7 @@ const countries = [
 
 export default function CountryCards() {
   return (
-    <section className="country-section pt_120 pb_90">
+    <section className="country-section pt_80 pb_60">
       <div className="auto-container">
         <div className="sec-title mb_50 centred">
           <h2>Our Global Presence</h2>
@@ -37,9 +37,11 @@ export default function CountryCards() {
       <style jsx>{`
         .country-card-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-          gap: 32px;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 25px;
           justify-content: center;
+          max-width: 1200px;
+          margin: 0 auto;
         }
         .country-card-modern {
           background: #fff;
@@ -85,6 +87,16 @@ export default function CountryCards() {
           font-weight: 700;
           margin: 0;
           text-align: center;
+        }
+        @media (max-width: 991px) {
+          .country-card-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media (max-width: 576px) {
+          .country-card-grid {
+            grid-template-columns: 1fr;
+          }
         }
       `}</style>
     </section>

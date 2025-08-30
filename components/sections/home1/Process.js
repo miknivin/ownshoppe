@@ -33,7 +33,7 @@ export default function Process() {
       <style jsx>{`
         .process-section {
           background: #ffff;
-          padding: 60px 0;
+          padding: 80px 0;
         }
         .inner-container {
           display: flex;
