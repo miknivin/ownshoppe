@@ -72,10 +72,10 @@ export default function ReturnPolicy() {
                         <p>
                           While we strive to ensure timely and successful
                           deliveries, delays may occur due to unforeseen
-                          circumstances or issues with the courier service. In
-                          the event of a delayed or unsuccessful delivery, we
-                          will make every effort to communicate with you and
-                          provide updates on the status of your shipment.
+                          circumstances or issues with the shipping line. In the
+                          event of a delayed or unsuccessful delivery, we will
+                          make every effort to communicate with you and provide
+                          updates on the status of your shipment.
                         </p>
                       </div>
 
