@@ -80,7 +80,7 @@ export default function ReturnPolicy() {
                         <h3 className="mb_20">9. Contacting Us</h3>
                         <p>For any queries, you can reach us at:</p>
                         <p className="mt_20">
-                          Phone: <a href="tel:+918848101280">+918848101280</a>
+                          Phone: <a href="tel:+919645898599">+919645898599</a>
                         </p>
                         <p className="mt_20">
                           Email:{" "}
